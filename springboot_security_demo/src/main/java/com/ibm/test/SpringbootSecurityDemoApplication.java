@@ -8,7 +8,7 @@ public class SpringbootSecurityDemoApplication {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello");
+		System.out.println("X");		
 		SpringApplication.run(SpringbootSecurityDemoApplication.class, args);
 	}
 
