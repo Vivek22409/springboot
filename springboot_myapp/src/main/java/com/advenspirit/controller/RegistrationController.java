@@ -9,39 +9,39 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.advenspirit.entity.User;
+import com.advenspirit.entity.Employee;
 import com.advenspirit.exception.ResourceNotFoundException;
+import com.advenspirit.model.EmployeeDto;
 import com.advenspirit.model.Response;
-import com.advenspirit.model.UserDto;
-import com.advenspirit.service.UserService;
+import com.advenspirit.service.EmployeeService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/v1")
 public class RegistrationController {
 
 	@Autowired
-	private UserService userService;
+	private EmployeeService empService;
 
 	@GetMapping("/message")
 	public String greetMessage() {
 		return "hello";
 	}
 
-	@GetMapping("/user/{id}")
-	public ResponseEntity<Object> getUser(@PathVariable("id") long id){
-		UserDto userDetails;
+	@GetMapping("/employee/{empId}")
+	public ResponseEntity<Object> getUser(@PathVariable("empId") String empId){
+		EmployeeDto empDto;
 		try {
-			userDetails = userService.findUser(id);
-		} catch (ResourceNotFoundException e) {
-			Response response = new Response(901,"RESOURCE_NOT_FOUND","Resource not found");
+			empDto = empService.findEmployee(empId);
+		} catch (ResourceNotFoundException ex) {
+			Response response = new Response(901,"RESOURCE_NOT_FOUND",ex.getMessage());
 			return ResponseEntity.ok(response);
 		}
-		return ResponseEntity.ok(userDetails);
+		return ResponseEntity.ok(empDto);
 	}
 
-	@PostMapping("/user")
-	public ResponseEntity<Response> addUser(@RequestBody User user) throws SQLException{
-		Response response = userService.addUser(user);
+	@PostMapping("/employee")
+	public ResponseEntity<Response> addEmployee(@RequestBody EmployeeDto empDto) throws SQLException{
+		Response response = empService.addEmployee(empDto);
 		return ResponseEntity.ok(response); 
 
 	}
