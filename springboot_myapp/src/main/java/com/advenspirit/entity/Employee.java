@@ -1,9 +1,13 @@
 package com.advenspirit.entity;
 
 import java.time.Instant;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
@@ -19,6 +23,9 @@ public class Employee {
 	private String password;
 	private String empType;
 	private final Instant regTime = Instant.now();
+	
+	 /*@OneToOne(fetch = FetchType.LAZY,cascade =  CascadeType.ALL,mappedBy = "emailId")
+	 private LoginLogoutHistory loginLogoutHistory;*/
 
 	public Employee() {
 	}
@@ -84,5 +91,6 @@ public class Employee {
 	public Instant getRegTime() {
 		return regTime;
 	}
+
 
 }

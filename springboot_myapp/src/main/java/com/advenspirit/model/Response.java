@@ -9,13 +9,13 @@ public class Response {
 
 	public Response() {
 	}
-	
+
 	public Response(long code, String message, String description) {
 		super();
 		this.code = code;
 		this.message = message;
 		this.description = description;
-		
+
 	}
 
 	public Response(long code, String message, String description, Object object) {

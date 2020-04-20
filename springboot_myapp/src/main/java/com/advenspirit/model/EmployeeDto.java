@@ -28,9 +28,14 @@ public class EmployeeDto {
 		this.empId = empId;
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.emailId = emailId;		
+		this.emailId = emailId;
 		this.empType = empType;
 		this.regTime = regTime;
+	}
+
+	public EmployeeDto(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
 	}
 
 	public String getEmpId() {
