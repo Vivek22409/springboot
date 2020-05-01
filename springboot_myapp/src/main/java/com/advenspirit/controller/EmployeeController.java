@@ -20,10 +20,11 @@ import com.advenspirit.model.LoginLogoutHistoryDto;
 import com.advenspirit.model.LoginRequest;
 import com.advenspirit.model.LoginResponse;
 import com.advenspirit.model.Response;
+import com.advenspirit.repository.EmployeeRepository;
 import com.advenspirit.service.EmployeeService;
 import com.advenspirit.util.JwtUtil;
 
-//@CrossOrigin(origins ="http://192.168.1.108:4200",allowCredentials ="true")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 @RequestMapping("/api/v1")
 public class EmployeeController {
@@ -35,13 +36,12 @@ public class EmployeeController {
 
 	@Autowired
 	private JwtUtil jwtUtil;
-
+	
 	@GetMapping("/message")
 	public String greetMessage() {
 		return "hello";
 	}
-
-	@CrossOrigin(origins = "http://192.168.1.108:4200", allowCredentials = "true")
+	
 	@PostMapping("/login")
 	public ResponseEntity<Response> authenticateAndCreateToken(@RequestBody LoginRequest loginRequest) {
 
@@ -112,7 +112,8 @@ public class EmployeeController {
 		}
 
 		return ResponseEntity.ok(response);
-	}
+	}	
+	
 
 	@GetMapping("/employee/{empEmailId}")
 	public ResponseEntity<Object> getEmployee(@PathVariable("empEmailId") String empEmailId) {

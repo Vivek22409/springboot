@@ -15,11 +15,11 @@ import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
 @Entity
-@Table(/*uniqueConstraints = @UniqueConstraint(columnNames = "mailId")*/)
+@Table
 public class LoginLogoutHistory {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	@Column(name = "mailId", nullable = false)
 	private String emailId;
@@ -28,10 +28,7 @@ public class LoginLogoutHistory {
 	private final Instant loginTime = Instant.now();
 	private Instant logoutTime = Instant.now();
 	private String token;
-	//@OneToOne(fetch = FetchType.LAZY,cascade =  CascadeType.ALL,mappedBy = "employee")
-	/*@OneToOne(fetch = FetchType.LAZY, optional = false)
-	@JoinColumn(name = "mailId",insertable = false, updatable = false)
-	private Employee employee;*/
+	
 
 	public Long getId() {
 		return id;
