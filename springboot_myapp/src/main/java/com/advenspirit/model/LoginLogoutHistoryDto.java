@@ -21,12 +21,12 @@ public class LoginLogoutHistoryDto {
 	private String emailId;
 	private String location;
 	private String empType;
-	private Instant loginTime;
-	private Instant logoutTime;
+	private String loginTime;
+	private String logoutTime;
 	private EmployeeDto employee;
 
-	public LoginLogoutHistoryDto(Long id, String emailId, String location, String empType, Instant loginTime,
-			Instant logoutTime, EmployeeDto employee) {
+	public LoginLogoutHistoryDto(Long id, String emailId, String location, String empType, String loginTime,
+			String logoutTime, EmployeeDto employee) {
 		super();
 		this.id = id;
 		this.emailId = emailId;
@@ -70,19 +70,7 @@ public class LoginLogoutHistoryDto {
 
 	public void setEmpType(String empType) {
 		this.empType = empType;
-	}
-
-	public Instant getLoginTime() {
-		return loginTime;
-	}
-
-	public Instant getLogoutTime() {
-		return logoutTime;
-	}
-
-	public void setLogoutTime(Instant logoutTime) {
-		this.logoutTime = logoutTime;
-	}
+	}	
 
 	public EmployeeDto getEmployee() {
 		return employee;
@@ -92,8 +80,22 @@ public class LoginLogoutHistoryDto {
 		this.employee = employee;
 	}
 
-	public void setLoginTime(Instant loginTime) {
+	public String getLoginTime() {
+		return loginTime;
+	}
+
+	public void setLoginTime(String loginTime) {
 		this.loginTime = loginTime;
 	}
+
+	public String getLogoutTime() {
+		return logoutTime;
+	}
+
+	public void setLogoutTime(String logoutTime) {
+		this.logoutTime = logoutTime;
+	}
+	
+	
 
 }

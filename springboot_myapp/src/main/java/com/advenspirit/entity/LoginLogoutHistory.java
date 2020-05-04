@@ -1,6 +1,13 @@
 package com.advenspirit.entity;
 
+import java.time.Clock;
+import java.time.Duration;
 import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.TimeZone;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -25,8 +32,8 @@ public class LoginLogoutHistory {
 	private String emailId;
 	private String location;
 	private String empType;
-	private final Instant loginTime = Instant.now();
-	private Instant logoutTime = Instant.now();
+	private String loginTime;
+	private String logoutTime;
 	private String token;
 	
 
@@ -61,17 +68,31 @@ public class LoginLogoutHistory {
 	public void setEmpType(String empType) {
 		this.empType = empType;
 	}
+	
 
-	public Instant getLoginTime() {
+	public String getLoginTime() {
 		return loginTime;
 	}
 
-	public Instant getLogoutTime() {
+	public void setLoginTime() {
+		
+		//LocalDateTime localDateTime = LocalDateTime.now(Clock.offset(Clock. systemUTC(),Duration.ofMinutes(330)));
+		LocalDateTime localDateTime = LocalDateTime.now(Clock.system(ZoneId.of("Asia/Kolkata")));
+		//LocalDateTime localDateTime = LocalDateTime.now(Clock.system(ZoneId.of(TimeZone.getDefault().getID())));
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MMM-dd HH:mm:ss");
+		this.loginTime = formatter.format(localDateTime);
+	}
+
+	public String getLogoutTime() {
 		return logoutTime;
 	}
 
-	public void setLogoutTime(Instant logoutTime) {
-		this.logoutTime = logoutTime;
+	public void setLogoutTime() {
+		//LocalDateTime localDateTime = LocalDateTime.now(Clock.offset(Clock.systemUTC(),Duration.ofMinutes(330)));
+		//LocalDateTime localDateTime = LocalDateTime.now(Clock.system(ZoneId.of(TimeZone.getDefault().getID())));
+		LocalDateTime localDateTime = LocalDateTime.now(Clock.system(ZoneId.of("Asia/Kolkata")));
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MMM-dd HH:mm:ss");
+		this.logoutTime = formatter.format(localDateTime);
 	}
 
 	public String getToken() {

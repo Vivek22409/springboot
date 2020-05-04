@@ -53,6 +53,7 @@ public class EmployeeService/* implements UserDetailsService */ {
 		linLoutHis.setEmailId(empDto.getEmailId());
 		linLoutHis.setEmpType(empDto.getEmpType());
 		linLoutHis.setLocation(location);
+		linLoutHis.setLoginTime();
 		linLoutHis.setToken(token);
 		linLoutRepo.save(linLoutHis);
 
@@ -61,7 +62,7 @@ public class EmployeeService/* implements UserDetailsService */ {
 	public void recordLogOutHistory(String tokenId) throws ResourceNotFoundException {
 		LoginLogoutHistory linLoutHis = linLoutRepo.findLoginLogoutHistoryBytoken(tokenId).orElseThrow(
 				() -> new ResourceNotFoundException("LoginLogoutHistory not found for this id :" + tokenId));
-		linLoutHis.setLogoutTime(Instant.now());
+		linLoutHis.setLogoutTime();
 		linLoutRepo.save(linLoutHis);
 	}	
 
