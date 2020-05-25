@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class SpringbootSecurityDemoApplication {
 
 	public static void main(String[] args) {		
-		SpringApplication.run(SpringbootSecurityDemoApplication.class, args);
+		SpringApplication.run(SpringbootSecurityDemoApplication.class, args);		
 	}	
 
 }
