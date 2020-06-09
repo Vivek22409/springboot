@@ -20,7 +20,6 @@ import com.advenspirit.model.LoginLogoutHistoryDto;
 import com.advenspirit.model.LoginRequest;
 import com.advenspirit.model.LoginResponse;
 import com.advenspirit.model.Response;
-import com.advenspirit.repository.EmployeeRepository;
 import com.advenspirit.service.EmployeeService;
 import com.advenspirit.util.JwtUtil;
 

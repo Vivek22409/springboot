@@ -1,0 +1,92 @@
+02-06-2020 00:08:17.736 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 18880 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:08:17.741 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:08:25.688 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 8.518 seconds (JVM running for 10.717)
+02-06-2020 00:08:56.901 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 17628 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:08:56.905 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:09:05.150 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 8.852 seconds (JVM running for 11.421)
+02-06-2020 00:10:01.094 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 15456 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:10:01.100 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:10:08.577 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 8.194 seconds (JVM running for 10.696)
+02-06-2020 00:13:11.620 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 12552 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:13:11.626 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:13:18.285 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 7.157 seconds (JVM running for 8.624)
+02-06-2020 00:14:27.521 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 26724 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:14:27.527 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:14:36.367 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 9.293 seconds (JVM running for 11.271)
+02-06-2020 00:15:44.222 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.submitTicket - entered in submitTicket method of Employee Controller
+02-06-2020 00:15:45.631 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.submitTicket - Ticket submitted for employee successfully with empId: 1
+02-06-2020 00:15:45.635 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.submitTicket - exited in submitTicket method of Employee Controller
+02-06-2020 00:23:08.143 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 24316 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:23:08.149 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:23:17.037 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 9.47 seconds (JVM running for 11.629)
+02-06-2020 00:49:16.091 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 5148 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:49:16.098 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:49:24.460 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 8.821 seconds (JVM running for 11.865)
+02-06-2020 00:52:03.441 [main] INFO 
+				c.n.e.c.EmployeeControllerIT.logStarting - Starting EmployeeControllerIT on vivek3148418-01 with PID 22396 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:52:03.449 [main] INFO 
+				c.n.e.c.EmployeeControllerIT.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:52:13.066 [main] INFO 
+				c.n.e.c.EmployeeControllerIT.logStarting - Starting EmployeeControllerIT on vivek3148418-01 with PID 22396 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:52:13.066 [main] INFO 
+				c.n.e.c.EmployeeControllerIT.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:52:43.648 [main] INFO 
+				c.n.e.c.EmployeeControllerIT.logStarting - Starting EmployeeControllerIT on vivek3148418-01 with PID 19168 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:52:43.653 [main] INFO 
+				c.n.e.c.EmployeeControllerIT.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:52:56.949 [main] INFO 
+				c.n.e.c.EmployeeControllerIT.logStarted - Started EmployeeControllerIT in 13.794 seconds (JVM running for 16.25)
+02-06-2020 00:53:31.282 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 10892 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:53:31.288 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:53:42.858 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 12.067 seconds (JVM running for 14.559)
+02-06-2020 00:59:14.556 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 17172 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 00:59:14.564 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 00:59:28.285 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 14.321 seconds (JVM running for 16.949)
+02-06-2020 01:00:57.289 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 15852 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 01:00:57.297 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 01:01:09.015 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 12.264 seconds (JVM running for 14.875)
+02-06-2020 01:03:21.870 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 21456 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 01:03:21.878 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 01:03:35.751 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 14.433 seconds (JVM running for 16.78)
+02-06-2020 01:03:36.418 [main] INFO 
+				c.n.e.EmployeeServiceApplicationTests.logStarting - Starting EmployeeServiceApplicationTests on vivek3148418-01 with PID 21456 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+02-06-2020 01:03:36.418 [main] INFO 
+				c.n.e.EmployeeServiceApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-06-2020 01:03:42.755 [main] INFO 
+				c.n.e.EmployeeServiceApplicationTests.logStarted - Started EmployeeServiceApplicationTests in 6.433 seconds (JVM running for 23.783)

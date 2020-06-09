@@ -1,0 +1,10 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.nagarro.emp.config.EmployeeServiceAutoConfiguration
+
+
+
+
+
+
+
+
+

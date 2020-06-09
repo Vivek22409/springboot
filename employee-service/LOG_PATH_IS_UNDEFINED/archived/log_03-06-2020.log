@@ -1,0 +1,1025 @@
+03-06-2020 00:35:30.120 [main] INFO  c.n.ticket.TicketServiceApplication.logStarting - Starting TicketServiceApplication on vivek3148418-01 with PID 9764 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 00:35:30.142 [main] INFO  c.n.ticket.TicketServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 00:35:39.595 [main] INFO  c.n.ticket.TicketServiceApplication.logStarted - Started TicketServiceApplication in 10.617 seconds (JVM running for 13.259)
+03-06-2020 00:37:05.341 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 3456 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 00:37:05.347 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 00:37:12.600 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 7.801 seconds (JVM running for 9.336)
+03-06-2020 00:41:08.906 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 00:41:08.909 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - entered in saveEmployee method of Employee Service
+03-06-2020 00:41:09.043 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - employee saved successfully with name: name
+03-06-2020 00:41:09.044 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - exited in saveEmployee method of Employee Service
+03-06-2020 00:41:09.045 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:41:09.045 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 00:41:32.659 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:41:32.685 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.findEmployee - findEmployee in saveEmployee method of Employee Service
+03-06-2020 00:41:32.721 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=1, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:41:32.722 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:41:37.950 [http-nio-1000-exec-5] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:41:37.953 [http-nio-1000-exec-5] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=1, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:41:37.953 [http-nio-1000-exec-5] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:41:51.229 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:41:51.230 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=1, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:41:51.231 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:42:12.466 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 00:42:12.466 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - entered in saveEmployee method of Employee Service
+03-06-2020 00:42:12.470 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - employee saved successfully with name: name
+03-06-2020 00:42:12.470 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - exited in saveEmployee method of Employee Service
+03-06-2020 00:42:12.471 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:42:12.471 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 00:42:40.241 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:42:40.242 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.findEmployee - findEmployee in saveEmployee method of Employee Service
+03-06-2020 00:42:40.243 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee not found with id: 3
+03-06-2020 00:42:40.244 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:42:50.083 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:42:50.085 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=1, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:42:50.085 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:42:53.968 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:42:53.968 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.findEmployee - findEmployee in saveEmployee method of Employee Service
+03-06-2020 00:42:53.970 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=2, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:42:53.970 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:43:19.347 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:43:19.348 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=2, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:43:19.348 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:43:23.829 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:43:23.829 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=2, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:43:23.830 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:43:26.677 [http-nio-1000-exec-5] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:43:26.678 [http-nio-1000-exec-5] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=2, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:43:26.678 [http-nio-1000-exec-5] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:44:09.578 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:44:09.578 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=2, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:44:09.579 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:44:44.612 [http-nio-1000-exec-7] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:44:44.613 [http-nio-1000-exec-7] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=2, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:44:44.614 [http-nio-1000-exec-7] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:46:23.417 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:46:23.418 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.findEmployee - findEmployee in saveEmployee method of Employee Service
+03-06-2020 00:46:23.421 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=2, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:46:23.422 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:46:45.056 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:46:45.057 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.findEmployee - findEmployee in saveEmployee method of Employee Service
+03-06-2020 00:46:45.059 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=1, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:46:45.060 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:46:51.729 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 00:46:51.730 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=1, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 00:46:51.731 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 00:47:36.326 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - entered in getEmployeeTickets method of Employee Controller
+03-06-2020 00:47:36.529 [http-nio-2000-exec-1] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 00:47:36.529 [http-nio-2000-exec-1] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - entered in findTickets method of ticketServiceImpl service
+03-06-2020 00:47:37.096 [http-nio-2000-exec-1] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - exited from findTickets method of ticketServiceImpl service
+03-06-2020 00:47:37.097 [http-nio-2000-exec-1] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=4, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3], TicketDto [ticktId=5, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=6, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=7, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=10, ticktSubjct=ticktSubjct8, ticktDesc=ticktDesc8, empId=8], TicketDto [ticktId=11, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=1]]
+03-06-2020 00:47:37.097 [http-nio-2000-exec-1] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 00:47:37.213 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - Ticket submitted for employee successfully with empId: 8
+03-06-2020 00:47:37.214 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exited in getEmployeeTickets method of Employee Controller
+03-06-2020 00:48:31.344 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 12076 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 00:48:31.350 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 00:48:37.723 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 6.925 seconds (JVM running for 8.648)
+03-06-2020 00:48:44.214 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - entered in getEmployeeTickets method of Employee Controller
+03-06-2020 00:48:44.420 [http-nio-2000-exec-3] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 00:48:44.420 [http-nio-2000-exec-3] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - entered in findTickets method of ticketServiceImpl service
+03-06-2020 00:48:44.423 [http-nio-2000-exec-3] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - exited from findTickets method of ticketServiceImpl service
+03-06-2020 00:48:44.423 [http-nio-2000-exec-3] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=4, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3], TicketDto [ticktId=5, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=6, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=7, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=10, ticktSubjct=ticktSubjct8, ticktDesc=ticktDesc8, empId=8], TicketDto [ticktId=11, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=1]]
+03-06-2020 00:48:44.423 [http-nio-2000-exec-3] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 00:48:44.456 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - Ticket submitted for employee successfully with empId: 8
+03-06-2020 00:48:44.456 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exited in getEmployeeTickets method of Employee Controller
+03-06-2020 00:49:00.277 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - entered in getEmployeeTickets method of Employee Controller
+03-06-2020 00:49:00.284 [http-nio-2000-exec-4] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 00:49:00.285 [http-nio-2000-exec-4] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - entered in findTickets method of ticketServiceImpl service
+03-06-2020 00:49:00.288 [http-nio-2000-exec-4] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - exited from findTickets method of ticketServiceImpl service
+03-06-2020 00:49:00.289 [http-nio-2000-exec-4] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=4, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3], TicketDto [ticktId=5, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=6, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=7, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=10, ticktSubjct=ticktSubjct8, ticktDesc=ticktDesc8, empId=8], TicketDto [ticktId=11, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=1]]
+03-06-2020 00:49:00.289 [http-nio-2000-exec-4] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 00:49:00.294 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - Ticket submitted for employee successfully with empId: 7
+03-06-2020 00:49:00.294 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exited in getEmployeeTickets method of Employee Controller
+03-06-2020 00:49:26.465 [http-nio-1000-exec-5] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - entered in getEmployeeTickets method of Employee Controller
+03-06-2020 00:49:26.472 [http-nio-2000-exec-5] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 00:49:26.472 [http-nio-2000-exec-5] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - entered in findTickets method of ticketServiceImpl service
+03-06-2020 00:49:26.475 [http-nio-2000-exec-5] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - exited from findTickets method of ticketServiceImpl service
+03-06-2020 00:49:26.475 [http-nio-2000-exec-5] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=4, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3], TicketDto [ticktId=5, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=6, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=7, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=10, ticktSubjct=ticktSubjct8, ticktDesc=ticktDesc8, empId=8], TicketDto [ticktId=11, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=1]]
+03-06-2020 00:49:26.476 [http-nio-2000-exec-5] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 00:49:26.480 [http-nio-1000-exec-5] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - Ticket submitted for employee successfully with empId: 6
+03-06-2020 00:49:26.481 [http-nio-1000-exec-5] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exited in getEmployeeTickets method of Employee Controller
+03-06-2020 00:49:33.255 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - entered in getEmployeeTickets method of Employee Controller
+03-06-2020 00:49:33.260 [http-nio-2000-exec-6] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 00:49:33.260 [http-nio-2000-exec-6] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - entered in findTickets method of ticketServiceImpl service
+03-06-2020 00:49:33.263 [http-nio-2000-exec-6] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - exited from findTickets method of ticketServiceImpl service
+03-06-2020 00:49:33.263 [http-nio-2000-exec-6] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=4, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3], TicketDto [ticktId=5, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=6, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=7, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=10, ticktSubjct=ticktSubjct8, ticktDesc=ticktDesc8, empId=8], TicketDto [ticktId=11, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=1]]
+03-06-2020 00:49:33.263 [http-nio-2000-exec-6] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 00:49:33.266 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - Ticket submitted for employee successfully with empId: 5
+03-06-2020 00:49:33.267 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exited in getEmployeeTickets method of Employee Controller
+03-06-2020 00:50:26.105 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - entered in getEmployeeTickets method of Employee Controller
+03-06-2020 00:50:26.113 [http-nio-2000-exec-7] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 00:50:26.113 [http-nio-2000-exec-7] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - entered in findTickets method of ticketServiceImpl service
+03-06-2020 00:50:26.117 [http-nio-2000-exec-7] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - exited from findTickets method of ticketServiceImpl service
+03-06-2020 00:50:26.117 [http-nio-2000-exec-7] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=4, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3], TicketDto [ticktId=5, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=6, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=7, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=10, ticktSubjct=ticktSubjct8, ticktDesc=ticktDesc8, empId=8], TicketDto [ticktId=11, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=1]]
+03-06-2020 00:50:26.117 [http-nio-2000-exec-7] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 00:50:26.120 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - Ticket submitted for employee successfully with empId: 8
+03-06-2020 00:50:26.120 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exited in getEmployeeTickets method of Employee Controller
+03-06-2020 00:51:39.789 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - entered in getEmployeeTickets method of Employee Controller
+03-06-2020 00:51:39.799 [http-nio-2000-exec-8] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 00:51:39.800 [http-nio-2000-exec-8] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - entered in findTickets method of ticketServiceImpl service
+03-06-2020 00:51:39.803 [http-nio-2000-exec-8] INFO  c.n.ticket.service.TicketServiceImpl.findTickets - exited from findTickets method of ticketServiceImpl service
+03-06-2020 00:51:39.804 [http-nio-2000-exec-8] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=4, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3], TicketDto [ticktId=5, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=6, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=7, ticktSubjct=ticktSubjct1, ticktDesc=ticktDesc1, empId=3], TicketDto [ticktId=10, ticktSubjct=ticktSubjct8, ticktDesc=ticktDesc8, empId=8], TicketDto [ticktId=11, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=1]]
+03-06-2020 00:51:39.805 [http-nio-2000-exec-8] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 00:51:39.808 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - Ticket submitted for employee successfully with empId: 8
+03-06-2020 00:51:39.809 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exited in getEmployeeTickets method of Employee Controller
+03-06-2020 01:00:39.227 [main] INFO  c.n.ticket.TicketServiceApplication.logStarting - Starting TicketServiceApplication on vivek3148418-01 with PID 21844 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 01:00:39.233 [main] INFO  c.n.ticket.TicketServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 01:00:48.675 [main] INFO  c.n.ticket.TicketServiceApplication.logStarted - Started TicketServiceApplication in 10.089 seconds (JVM running for 11.943)
+03-06-2020 01:01:07.120 [main] INFO  c.n.ticket.TicketServiceApplication.logStarting - Starting TicketServiceApplication on vivek3148418-01 with PID 22740 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 01:01:07.125 [main] INFO  c.n.ticket.TicketServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 01:01:13.903 [main] INFO  c.n.ticket.TicketServiceApplication.logStarted - Started TicketServiceApplication in 7.374 seconds (JVM running for 9.185)
+03-06-2020 01:01:56.132 [main] INFO  c.n.ticket.TicketServiceApplication.logStarting - Starting TicketServiceApplication on vivek3148418-01 with PID 13728 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 01:01:56.136 [main] INFO  c.n.ticket.TicketServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 01:02:03.323 [main] INFO  c.n.ticket.TicketServiceApplication.logStarted - Started TicketServiceApplication in 7.641 seconds (JVM running for 9.343)
+03-06-2020 01:06:01.326 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 01:06:01.332 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - entered in saveEmployee method of Employee Service
+03-06-2020 01:06:01.466 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - employee saved successfully with name: name
+03-06-2020 01:06:01.467 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - exited in saveEmployee method of Employee Service
+03-06-2020 01:06:01.468 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 01:06:01.468 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 01:12:56.293 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 412 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 01:12:56.299 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 01:13:03.818 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 412 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 01:13:03.819 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 01:13:15.294 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 22700 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 01:13:15.300 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 01:13:26.560 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 11.684 seconds (JVM running for 13.98)
+03-06-2020 01:17:26.022 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 24212 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 01:17:26.027 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 01:17:37.390 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 11.825 seconds (JVM running for 14.788)
+03-06-2020 01:38:49.333 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 3144 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 01:38:49.338 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 01:39:00.501 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 11.671 seconds (JVM running for 13.845)
+03-06-2020 01:41:26.040 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 22544 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 01:41:26.045 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 01:41:37.587 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 11.975 seconds (JVM running for 14.212)
+03-06-2020 11:42:47.092 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 26588 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 11:42:47.097 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 11:42:55.359 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 26588 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 11:42:55.361 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 11:46:19.911 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 22652 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 11:46:19.917 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 11:46:27.877 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 22652 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 11:46:27.878 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 11:48:20.935 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 27928 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 11:48:20.941 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 11:48:32.127 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 11.617 seconds (JVM running for 13.966)
+03-06-2020 11:49:54.128 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 24332 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 11:49:54.133 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 11:50:06.200 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.558 seconds (JVM running for 15.529)
+03-06-2020 11:51:16.123 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 13168 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 11:51:16.128 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 11:51:27.941 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.31 seconds (JVM running for 15.273)
+03-06-2020 11:51:28.309 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 11:51:28.333 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=1, ticktSubjct=sub, ticktDesc=desc, empId=2]
+03-06-2020 11:51:28.334 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 11:54:39.693 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 20612 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 11:54:39.697 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 11:54:51.961 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.755 seconds (JVM running for 15.119)
+03-06-2020 11:54:52.390 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 11:54:52.399 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=1, ticktSubjct=sub, ticktDesc=desc, empId=2]
+03-06-2020 11:54:52.400 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 11:56:31.487 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 22868 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 11:56:31.494 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 11:56:43.674 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.833 seconds (JVM running for 15.399)
+03-06-2020 11:56:44.059 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 11:56:44.069 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=1, ticktSubjct=sub, ticktDesc=desc, empId=2]
+03-06-2020 11:56:44.069 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:01:44.566 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 23928 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:01:44.571 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:01:56.984 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.988 seconds (JVM running for 15.188)
+03-06-2020 12:01:57.288 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:01:57.295 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:01:57.295 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:04:01.910 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 11500 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:04:01.916 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:04:14.088 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.694 seconds (JVM running for 14.779)
+03-06-2020 12:04:14.462 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:04:14.469 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=Id1, ticktSubjct=sub, ticktDesc=desc, empId=Id2]
+03-06-2020 12:04:14.470 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:05:45.775 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 13496 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:05:45.781 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:05:57.538 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.298 seconds (JVM running for 15.391)
+03-06-2020 12:05:57.917 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:05:57.925 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=Id1, ticktSubjct=sub, ticktDesc=desc, empId=Id2]
+03-06-2020 12:05:57.926 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:06:18.739 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 13376 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:06:18.748 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:06:30.575 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.381 seconds (JVM running for 14.895)
+03-06-2020 12:06:30.941 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:06:30.949 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:06:30.950 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:13:03.791 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 29096 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:13:03.797 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:13:15.515 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.214 seconds (JVM running for 14.826)
+03-06-2020 12:13:15.783 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:13:15.790 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:13:15.790 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:13:15.981 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:13:15.983 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:13:15.984 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:14:28.093 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 10996 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:14:28.098 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:14:39.924 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.332 seconds (JVM running for 14.662)
+03-06-2020 12:14:40.163 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:14:40.168 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:14:40.168 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:14:40.331 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:14:40.333 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:14:40.333 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:34:41.508 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 24100 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:34:41.514 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:34:53.352 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.346 seconds (JVM running for 14.261)
+03-06-2020 12:34:53.641 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:34:53.652 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:34:53.653 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:34:53.903 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 12:34:53.906 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 12:34:53.907 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 12:34:54.004 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:34:54.005 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:34:54.006 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:35:46.347 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 26292 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:35:46.352 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:36:01.477 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 15.582 seconds (JVM running for 18.732)
+03-06-2020 12:36:01.774 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:36:01.782 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:36:01.782 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:36:02.005 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 12:36:02.009 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 12:36:02.010 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 12:36:02.069 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:36:02.070 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:36:02.071 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:37:50.038 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 24084 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:37:50.043 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:38:12.725 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 23.131 seconds (JVM running for 25.813)
+03-06-2020 12:38:13.012 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:38:13.018 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:38:13.018 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:38:13.239 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 12:38:13.241 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 12:38:13.242 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 12:38:13.316 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:38:13.317 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:38:13.317 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:46:25.918 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 23348 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:46:25.923 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:46:37.377 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 11.938 seconds (JVM running for 14.44)
+03-06-2020 12:46:37.628 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:46:37.634 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:46:37.635 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:46:37.858 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 12:46:37.860 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 12:46:37.861 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 12:46:37.949 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:46:37.949 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:46:37.950 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:47:40.578 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 16720 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:47:40.583 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:47:53.860 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 13.74 seconds (JVM running for 15.72)
+03-06-2020 12:47:54.161 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:47:54.167 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:47:54.168 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:47:54.423 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 12:47:54.428 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 12:47:54.428 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 12:47:54.533 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:47:54.534 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:47:54.534 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:50:14.610 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 29628 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:50:14.623 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:50:27.143 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 13.012 seconds (JVM running for 15.479)
+03-06-2020 12:50:27.416 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:50:27.421 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:50:27.421 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:50:28.297 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 12:50:28.304 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 12:50:28.305 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 12:50:28.949 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:50:28.950 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:50:28.950 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:52:24.205 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 19516 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:52:24.210 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:52:36.240 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.547 seconds (JVM running for 14.668)
+03-06-2020 12:52:36.512 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:52:36.518 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:52:36.519 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:52:36.752 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 12:52:36.756 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 12:52:36.756 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 12:52:36.782 [main] INFO  c.n.t.controller.TicketController.updateTicket - entered in updateTicket method of ticket Controller
+03-06-2020 12:52:36.783 [main] INFO  c.n.t.controller.TicketController.updateTicket - ticket record created for employee successfully: TicketDto [ticktId=8, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3]
+03-06-2020 12:52:36.784 [main] INFO  c.n.t.controller.TicketController.updateTicket - exit from updateTicket method of Ticket Controller
+03-06-2020 12:52:36.848 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:52:36.848 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:52:36.849 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:55:28.805 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 29248 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:55:28.810 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:55:40.120 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 11.81 seconds (JVM running for 14.249)
+03-06-2020 12:55:40.356 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:55:40.363 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:55:40.364 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:55:40.582 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 12:55:40.585 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 12:55:40.586 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 12:55:40.609 [main] INFO  c.n.t.controller.TicketController.updateTicket - entered in updateTicket method of ticket Controller
+03-06-2020 12:55:40.610 [main] INFO  c.n.t.controller.TicketController.updateTicket - ticket record created for employee successfully: TicketDto [ticktId=8, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3]
+03-06-2020 12:55:40.611 [main] INFO  c.n.t.controller.TicketController.updateTicket - exit from updateTicket method of Ticket Controller
+03-06-2020 12:55:40.667 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:55:40.668 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:55:40.669 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:57:42.361 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 27848 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:57:42.366 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:57:54.312 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.376 seconds (JVM running for 14.995)
+03-06-2020 12:57:54.573 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:57:54.603 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:57:54.604 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:57:54.894 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 12:57:54.897 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 12:57:54.897 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 12:57:54.952 [main] INFO  c.n.t.controller.TicketController.updateTicket - entered in updateTicket method of ticket Controller
+03-06-2020 12:57:54.953 [main] INFO  c.n.t.controller.TicketController.updateTicket - ticket record created for employee successfully: TicketDto [ticktId=8, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3]
+03-06-2020 12:57:54.954 [main] INFO  c.n.t.controller.TicketController.updateTicket - exit from updateTicket method of Ticket Controller
+03-06-2020 12:57:55.001 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:57:55.002 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:57:55.003 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 12:58:39.507 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 29120 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 12:58:39.513 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 12:58:51.168 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.146 seconds (JVM running for 14.287)
+03-06-2020 12:58:51.431 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 12:58:51.437 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 12:58:51.438 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 12:58:51.655 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 12:58:51.660 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 12:58:51.660 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 12:58:51.691 [main] INFO  c.n.t.controller.TicketController.deleteTicket - entered in deleteTicket method of Ticket Controller
+03-06-2020 12:58:51.692 [main] INFO  c.n.t.controller.TicketController.deleteTicket - ticket deleted successfully with ticktId: 8
+03-06-2020 12:58:51.692 [main] INFO  c.n.t.controller.TicketController.deleteTicket - exit from deleteTicket method of ticket Controller
+03-06-2020 12:58:51.733 [main] INFO  c.n.t.controller.TicketController.updateTicket - entered in updateTicket method of ticket Controller
+03-06-2020 12:58:51.734 [main] INFO  c.n.t.controller.TicketController.updateTicket - ticket record created for employee successfully: TicketDto [ticktId=8, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3]
+03-06-2020 12:58:51.735 [main] INFO  c.n.t.controller.TicketController.updateTicket - exit from updateTicket method of Ticket Controller
+03-06-2020 12:58:51.787 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 12:58:51.788 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 12:58:51.788 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 13:00:23.583 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 3132 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 13:00:23.588 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 13:00:35.794 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.687 seconds (JVM running for 14.998)
+03-06-2020 13:00:36.130 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 13:00:36.136 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 13:00:36.138 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 13:00:36.410 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 13:00:36.414 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 13:00:36.415 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 13:00:36.445 [main] INFO  c.n.t.controller.TicketController.deleteTicket - entered in deleteTicket method of Ticket Controller
+03-06-2020 13:00:36.446 [main] INFO  c.n.t.controller.TicketController.deleteTicket - ticket deleted successfully with ticktId: 8
+03-06-2020 13:00:36.448 [main] INFO  c.n.t.controller.TicketController.deleteTicket - exit from deleteTicket method of ticket Controller
+03-06-2020 13:00:36.491 [main] INFO  c.n.t.controller.TicketController.updateTicket - entered in updateTicket method of ticket Controller
+03-06-2020 13:00:36.493 [main] INFO  c.n.t.controller.TicketController.updateTicket - ticket record created for employee successfully: TicketDto [ticktId=8, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3]
+03-06-2020 13:00:36.494 [main] INFO  c.n.t.controller.TicketController.updateTicket - exit from updateTicket method of Ticket Controller
+03-06-2020 13:00:36.559 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 13:00:36.560 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 13:00:36.561 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 13:05:51.964 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 2024 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 13:05:51.970 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 13:06:04.422 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.958 seconds (JVM running for 15.29)
+03-06-2020 13:06:04.707 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 13:06:04.713 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 13:06:04.714 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 13:06:04.953 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 13:06:04.957 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 13:06:04.958 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 13:06:04.984 [main] INFO  c.n.t.controller.TicketController.deleteTicket - entered in deleteTicket method of Ticket Controller
+03-06-2020 13:06:04.984 [main] INFO  c.n.t.controller.TicketController.deleteTicket - ticket deleted successfully with ticktId: 8
+03-06-2020 13:06:04.985 [main] INFO  c.n.t.controller.TicketController.deleteTicket - exit from deleteTicket method of ticket Controller
+03-06-2020 13:06:05.022 [main] INFO  c.n.t.controller.TicketController.updateTicket - entered in updateTicket method of ticket Controller
+03-06-2020 13:06:05.023 [main] INFO  c.n.t.controller.TicketController.updateTicket - ticket record created for employee successfully: TicketDto [ticktId=8, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3]
+03-06-2020 13:06:05.023 [main] INFO  c.n.t.controller.TicketController.updateTicket - exit from updateTicket method of Ticket Controller
+03-06-2020 13:06:05.071 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 13:06:05.072 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 13:06:05.073 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 13:09:55.488 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 14752 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 13:09:55.495 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 13:10:07.546 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.548 seconds (JVM running for 15.258)
+03-06-2020 13:10:07.845 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 13:10:07.854 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 13:10:07.855 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 13:10:08.098 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 13:10:08.102 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 13:10:08.102 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 13:10:08.128 [main] INFO  c.n.t.controller.TicketController.deleteTicket - entered in deleteTicket method of Ticket Controller
+03-06-2020 13:10:08.129 [main] INFO  c.n.t.controller.TicketController.deleteTicket - ticket deleted successfully with ticktId: 1
+03-06-2020 13:10:08.130 [main] INFO  c.n.t.controller.TicketController.deleteTicket - exit from deleteTicket method of ticket Controller
+03-06-2020 13:10:08.167 [main] INFO  c.n.t.controller.TicketController.updateTicket - entered in updateTicket method of ticket Controller
+03-06-2020 13:10:08.168 [main] INFO  c.n.t.controller.TicketController.updateTicket - ticket record created for employee successfully: TicketDto [ticktId=8, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3]
+03-06-2020 13:10:08.169 [main] INFO  c.n.t.controller.TicketController.updateTicket - exit from updateTicket method of Ticket Controller
+03-06-2020 13:10:08.214 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 13:10:08.215 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 13:10:08.216 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 13:11:52.691 [main] INFO  c.n.t.c.TicketControllerTest.logStarting - Starting TicketControllerTest on vivek3148418-01 with PID 22488 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\ticket-service)
+03-06-2020 13:11:52.696 [main] INFO  c.n.t.c.TicketControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 13:12:04.471 [main] INFO  c.n.t.c.TicketControllerTest.logStarted - Started TicketControllerTest in 12.32 seconds (JVM running for 14.391)
+03-06-2020 13:12:04.802 [main] INFO  c.n.t.controller.TicketController.getTickets - entered in getTickets method of ticket controller
+03-06-2020 13:12:04.808 [main] INFO  c.n.t.controller.TicketController.getTickets - tickets extracted successfully: [TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two], TicketDto [ticktId=two, ticktSubjct=sub, ticktDesc=desc, empId=three]]
+03-06-2020 13:12:04.809 [main] INFO  c.n.t.controller.TicketController.getTickets - exited in getTickets method of ticket Controller
+03-06-2020 13:12:05.069 [main] INFO  c.n.t.controller.TicketController.saveTicket - entered in saveTicket method of Ticket Controller
+03-06-2020 13:12:05.073 [main] INFO  c.n.t.controller.TicketController.saveTicket - ticket record created successfully: TicketDto [ticktId=null, ticktSubjct=null, ticktDesc=null, empId=null]
+03-06-2020 13:12:05.074 [main] INFO  c.n.t.controller.TicketController.saveTicket - exit from saveTicket method of Ticket Controller
+03-06-2020 13:12:05.114 [main] INFO  c.n.t.controller.TicketController.deleteTicket - entered in deleteTicket method of Ticket Controller
+03-06-2020 13:12:05.115 [main] INFO  c.n.t.controller.TicketController.deleteTicket - ticket deleted successfully with ticktId: 1
+03-06-2020 13:12:05.115 [main] INFO  c.n.t.controller.TicketController.deleteTicket - exit from deleteTicket method of ticket Controller
+03-06-2020 13:12:05.139 [main] INFO  c.n.t.controller.TicketController.updateTicket - entered in updateTicket method of ticket Controller
+03-06-2020 13:12:05.140 [main] INFO  c.n.t.controller.TicketController.updateTicket - ticket record created for employee successfully: TicketDto [ticktId=8, ticktSubjct=ticktSubjct, ticktDesc=ticktDesc, empId=3]
+03-06-2020 13:12:05.141 [main] INFO  c.n.t.controller.TicketController.updateTicket - exit from updateTicket method of Ticket Controller
+03-06-2020 13:12:05.193 [main] INFO  c.n.t.controller.TicketController.getTicket - entered in getTicket method of Ticket Controller
+03-06-2020 13:12:05.194 [main] INFO  c.n.t.controller.TicketController.getTicket - ticket extracted successfully with record: TicketDto [ticktId=one, ticktSubjct=sub, ticktDesc=desc, empId=two]
+03-06-2020 13:12:05.195 [main] INFO  c.n.t.controller.TicketController.getTicket - exit from getTicket method of ticket Controller
+03-06-2020 14:00:32.038 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 24004 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 14:00:32.041 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 14:00:39.158 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 7.39 seconds (JVM running for 8.549)
+03-06-2020 14:00:39.449 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 14:00:39.453 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 14:00:39.454 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 14:01:17.914 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 29208 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 14:01:17.917 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 14:01:24.980 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 7.339 seconds (JVM running for 8.509)
+03-06-2020 14:01:25.251 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 14:01:25.276 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 14:01:25.277 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 15:21:03.969 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 23348 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 15:21:03.972 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 15:21:11.514 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 7.875 seconds (JVM running for 9.235)
+03-06-2020 15:21:11.716 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 15:21:11.722 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:21:11.723 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 15:21:11.906 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 15:21:11.907 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:21:11.907 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 15:24:05.358 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 10612 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 15:24:05.361 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 15:24:13.897 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 8.855 seconds (JVM running for 10.244)
+03-06-2020 15:24:14.132 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 15:24:14.141 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:24:14.141 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 15:24:14.364 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 15:24:14.365 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:24:14.365 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 15:27:29.094 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 14580 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 15:27:29.098 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 15:27:36.728 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 7.926 seconds (JVM running for 9.301)
+03-06-2020 15:27:36.935 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 15:27:36.941 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:27:36.941 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 15:27:37.139 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 15:27:37.139 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:27:37.140 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 15:28:18.076 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 2228 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 15:28:18.079 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 15:28:25.467 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 7.692 seconds (JVM running for 8.925)
+03-06-2020 15:28:25.653 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 15:28:25.659 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:28:25.660 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 15:28:25.854 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 15:28:25.854 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:28:25.855 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 15:29:17.919 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 23908 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 15:29:17.925 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 15:29:31.971 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 14.563 seconds (JVM running for 17.279)
+03-06-2020 15:29:32.328 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 15:29:32.337 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:29:32.337 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 15:29:32.750 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 15:29:32.752 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:29:32.753 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 15:32:35.457 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 14164 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 15:32:35.463 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 15:32:50.460 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 15.638 seconds (JVM running for 18.84)
+03-06-2020 15:32:50.803 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 15:32:50.813 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:32:50.814 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 15:32:51.145 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 15:32:51.146 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:32:51.146 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 15:33:45.838 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 27108 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 15:33:45.844 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 15:33:59.375 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 13.986 seconds (JVM running for 16.987)
+03-06-2020 15:33:59.749 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 15:33:59.760 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:33:59.761 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 15:34:00.108 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 15:34:00.109 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:34:00.109 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 15:38:04.611 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 12220 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 15:38:04.618 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 15:38:18.463 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 14.348 seconds (JVM running for 17.381)
+03-06-2020 15:38:18.821 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 15:38:18.830 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:38:18.830 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 15:38:19.135 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 15:38:19.136 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:38:19.136 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 15:43:24.890 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 28628 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 15:43:24.896 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 15:43:37.311 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 12.95 seconds (JVM running for 15.022)
+03-06-2020 15:43:37.598 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 15:43:37.605 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:43:37.606 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 15:43:37.902 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 15:43:37.903 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:43:37.904 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 15:44:52.054 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 17992 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 15:44:52.061 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 15:45:05.710 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 14.122 seconds (JVM running for 17.455)
+03-06-2020 15:45:06.060 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 15:45:06.069 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:45:06.070 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 15:45:06.443 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 15:45:06.445 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 15:45:06.446 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 16:03:07.552 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 9192 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 16:03:07.557 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 16:03:19.481 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 12.48 seconds (JVM running for 15.1)
+03-06-2020 16:03:19.828 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 16:03:19.834 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:03:19.835 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 16:03:20.075 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 16:03:20.076 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:03:20.077 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 16:05:03.934 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 27848 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 16:05:03.940 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 16:05:16.322 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 12.845 seconds (JVM running for 15.285)
+03-06-2020 16:05:16.666 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - entered in getEmployeeTickets method of Employee Controller
+03-06-2020 16:05:16.698 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exception occured in getEmployeeTickets method of Employee Controller: null
+03-06-2020 16:05:16.698 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exited in getEmployeeTickets method of Employee Controller
+03-06-2020 16:05:16.882 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 16:05:16.888 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:05:16.889 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 16:05:17.045 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 16:05:17.045 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:05:17.046 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 16:05:58.403 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 25980 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 16:05:58.414 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 16:06:10.922 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 12.974 seconds (JVM running for 15.802)
+03-06-2020 16:06:11.282 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 16:06:11.288 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:06:11.288 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 16:06:11.588 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 16:06:11.589 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:06:11.589 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 16:07:52.759 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 13904 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 16:07:52.765 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 16:08:04.758 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 12.483 seconds (JVM running for 14.403)
+03-06-2020 16:08:05.079 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - entered in getEmployeeTickets method of Employee Controller
+03-06-2020 16:08:05.115 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exception occured in getEmployeeTickets method of Employee Controller: null
+03-06-2020 16:08:05.116 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exited in getEmployeeTickets method of Employee Controller
+03-06-2020 16:08:05.313 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 16:08:05.320 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:08:05.321 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 16:08:05.493 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 16:08:05.495 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:08:05.495 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 16:08:41.349 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 25716 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 16:08:41.354 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 16:08:54.147 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 13.248 seconds (JVM running for 15.542)
+03-06-2020 16:08:54.516 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - entered in getEmployeeTickets method of Employee Controller
+03-06-2020 16:08:54.556 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exception occured in getEmployeeTickets method of Employee Controller: null
+03-06-2020 16:08:54.556 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exited in getEmployeeTickets method of Employee Controller
+03-06-2020 16:08:54.785 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 16:08:54.794 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:08:54.795 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 16:08:54.954 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 16:08:54.955 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:08:54.956 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 16:19:50.482 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 21808 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 16:19:50.488 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 16:19:53.521 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 20240 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 16:19:53.526 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 16:20:06.690 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 20240 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 16:20:06.691 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 16:20:07.796 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 17.829 seconds (JVM running for 20.395)
+03-06-2020 16:20:08.602 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 16:20:08.613 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:20:08.614 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 16:20:08.965 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 16:20:08.966 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:20:08.967 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 16:20:15.138 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 8.787 seconds (JVM running for 24.797)
+03-06-2020 16:20:15.415 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 16:20:15.426 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:20:15.426 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 16:20:15.656 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 16:20:15.657 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:20:15.658 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 16:21:25.885 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarting - Starting EmployeeControllerTest on vivek3148418-01 with PID 27688 (started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 16:21:25.890 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 16:21:38.285 [main] INFO 
+				c.n.e.c.EmployeeControllerTest.logStarted - Started EmployeeControllerTest in 12.874 seconds (JVM running for 14.875)
+03-06-2020 16:21:38.650 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - entered in getEmployeeTickets method of Employee Controller
+03-06-2020 16:21:38.688 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exception occured in getEmployeeTickets method of Employee Controller: null
+03-06-2020 16:21:38.688 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployeeTickets - exited in getEmployeeTickets method of Employee Controller
+03-06-2020 16:21:38.863 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - entered in getEmployee method of Employee Controller
+03-06-2020 16:21:38.871 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - Employee record extracted successfully: EmployeeDto [empId=one, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:21:38.872 [main] INFO 
+				c.n.e.controller.EmployeeController.getEmployee - exited in getEmployee method of Employee Controller
+03-06-2020 16:21:39.057 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 16:21:39.058 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 16:21:39.058 [main] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 17:52:12.336 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 20612 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 17:52:12.345 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 17:52:21.518 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 9.758 seconds (JVM running for 13.912)
+03-06-2020 17:53:47.733 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - entered in authenticateAndCreateToken method of Employee Controller
+03-06-2020 17:54:01.185 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.authenticateEmployee - authenticateEmployee in saveEmployee method of Employee Service
+03-06-2020 17:59:15.860 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 11588 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 17:59:15.870 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 17:59:27.618 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 12.54 seconds (JVM running for 15.489)
+03-06-2020 18:03:30.148 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 18:03:30.153 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - entered in saveEmployee method of Employee Service
+03-06-2020 18:03:30.281 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - employee saved successfully with name: name
+03-06-2020 18:03:30.281 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - exited in saveEmployee method of Employee Service
+03-06-2020 18:03:30.282 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=emailId, password=password, department=department]
+03-06-2020 18:03:30.282 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 18:04:10.861 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - entered in authenticateAndCreateToken method of Employee Controller
+03-06-2020 18:04:33.101 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.authenticateEmployee - authenticateEmployee in saveEmployee method of Employee Service
+03-06-2020 18:04:34.179 [http-nio-1000-exec-6] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - exited in authenticateAndCreateToken method of Employee Controller
+03-06-2020 23:22:40.941 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 13028 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 23:22:40.946 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 23:22:46.472 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 5.943 seconds (JVM running for 7.061)
+03-06-2020 23:22:50.200 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - entered in authenticateAndCreateToken method of Employee Controller
+03-06-2020 23:22:50.202 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.authenticateEmployee - authenticateEmployee in saveEmployee method of Employee Service
+03-06-2020 23:22:50.843 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - exited in authenticateAndCreateToken method of Employee Controller
+03-06-2020 23:27:30.987 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarting - Starting EmployeeServiceApplication on vivek3148418-01 with PID 16212 (C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service\target\classes started by vivekkumar02 in C:\Users\vivekkumar02\OneDrive - Nagarro\Desktop\MyProjects\MyWorkSpace\employee-service)
+03-06-2020 23:27:30.990 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-06-2020 23:27:35.624 [main] INFO 
+				c.n.emp.EmployeeServiceApplication.logStarted - Started EmployeeServiceApplication in 4.939 seconds (JVM running for 6.173)
+03-06-2020 23:27:40.181 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - entered in authenticateAndCreateToken method of Employee Controller
+03-06-2020 23:27:40.184 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.authenticateEmployee - authenticateEmployee in saveEmployee method of Employee Service
+03-06-2020 23:27:40.284 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - exception occured in authenticateAndCreateToken method of Employee Controller
+03-06-2020 23:27:40.285 [http-nio-1000-exec-2] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - exited in authenticateAndCreateToken method of Employee Controller
+03-06-2020 23:28:20.302 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 23:28:20.303 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - entered in saveEmployee method of Employee Service
+03-06-2020 23:28:20.375 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - employee saved successfully with name: name
+03-06-2020 23:28:20.376 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - exited in saveEmployee method of Employee Service
+03-06-2020 23:28:20.376 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=name, emailId=test@gmail.com, password=password, department=department]
+03-06-2020 23:28:20.376 [http-nio-1000-exec-3] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 23:28:26.694 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - entered in authenticateAndCreateToken method of Employee Controller
+03-06-2020 23:28:26.694 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.authenticateEmployee - authenticateEmployee in saveEmployee method of Employee Service
+03-06-2020 23:28:27.143 [http-nio-1000-exec-4] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - exited in authenticateAndCreateToken method of Employee Controller
+03-06-2020 23:51:09.267 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 23:51:09.268 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - entered in saveEmployee method of Employee Service
+03-06-2020 23:51:09.270 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - employee saved successfully with name: null
+03-06-2020 23:51:09.270 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - exited in saveEmployee method of Employee Service
+03-06-2020 23:51:09.270 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=null, emailId=bhavneesh@gmail.com, password=bhavneesh, department=IT]
+03-06-2020 23:51:09.270 [http-nio-1000-exec-9] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 23:52:20.801 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - entered in saveEmployee method of Employee Controller
+03-06-2020 23:52:20.801 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - entered in saveEmployee method of Employee Service
+03-06-2020 23:52:20.803 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - employee saved successfully with name: null
+03-06-2020 23:52:20.803 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.saveEmployee - exited in saveEmployee method of Employee Service
+03-06-2020 23:52:20.804 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - employee record created successfully: EmployeeDto [empId=null, name=null, emailId=vivek@gmail.com, password=vivek, department=IT]
+03-06-2020 23:52:20.804 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.registerEmployee - exit from saveEmployee method of Employee Controller
+03-06-2020 23:52:44.886 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - entered in authenticateAndCreateToken method of Employee Controller
+03-06-2020 23:52:44.887 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.authenticateEmployee - authenticateEmployee in saveEmployee method of Employee Service
+03-06-2020 23:52:44.890 [http-nio-1000-exec-1] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - exited in authenticateAndCreateToken method of Employee Controller
+03-06-2020 23:59:59.582 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - entered in authenticateAndCreateToken method of Employee Controller
+03-06-2020 23:59:59.583 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.authenticateEmployee - authenticateEmployee in saveEmployee method of Employee Service
+03-06-2020 23:59:59.586 [http-nio-1000-exec-10] INFO 
+				c.n.e.controller.EmployeeController.authenticateAndCreateToken - exited in authenticateAndCreateToken method of Employee Controller
